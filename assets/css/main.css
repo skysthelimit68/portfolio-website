@@ -109,6 +109,12 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+.quote {
+	font-style:italic;
+	font-family:"times new roman", serif;
+margin-bottom: 15px;
+}
+
 /* Type */
 
 	html {
@@ -1409,6 +1415,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+			
 		@media screen and (max-width: 980px) {
 
 			#header .content p br {
