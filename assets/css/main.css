@@ -1605,7 +1605,7 @@ input, select, textarea {
 			.portfolio-wrap a {
 				border-bottom:none;
 			}
-			.portfolio-img-wrap {
+			.portfolio-img-wrap, .portfolio-video-wrap {
 				max-height: 150px;
 				overflow: hidden;
 				margin-bottom: 5px;
@@ -1613,6 +1613,13 @@ input, select, textarea {
 			.portfolio-img-wrap img {
 				width:100%;
 			}
+			.portfolio-video-wrap {
+				display:flex;
+				justify-content:center;
+				align-items: center;
+			}
+
+
 
 		@media screen and (max-width: 736px) {
 
@@ -1634,10 +1641,9 @@ input, select, textarea {
 					
 				}
 
-				.portfolio-img-wrap {
-					min-height:300px;
-					/*display: flex;
-					justify-content: center;*/
+				.portfolio-img-wrap, .portfolio-video-wrap {
+					max-height:300px;
+					
 					
 				}
 				.portfolio-img-wrap img {
